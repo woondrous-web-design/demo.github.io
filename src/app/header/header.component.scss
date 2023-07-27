@@ -1,0 +1,110 @@
+.wrapper {
+    text-align: right;
+    width: 100%;
+    overflow: hidden;
+    display: inline-flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+@media (min-width: 800px) {
+    .wrapper {
+        text-align: right;
+        width: 100%;
+        overflow: hidden;
+        display: inline-flex;
+        justify-content: flex-end;
+        position: relative;
+    }
+}
+
+
+.text-container {
+    padding: 1rem;
+    margin-right: 2rem;
+}
+
+.h1-large {
+    color: white !important;
+    text-shadow: 2px 2px gray;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    text-align: left;
+    padding-left: 2rem;
+}
+
+.icon {
+    max-width: 2rem;
+    max-height: 2rem;
+    vertical-align: top;
+}
+
+.p-large {
+    color: white !important;
+    text-shadow: 2px 2px gray;
+    font-size: 2rem;
+    line-height: 1.5;
+
+    @media (max-width: 500px) {
+        font-size:1.25rem;
+      }
+}
+
+
+/***** slider *****/
+.slider-inner {
+    padding-left: 284px
+}
+
+.slider {
+    position: relative;
+    width: 736px;
+    height: 397px;
+    float: right;
+}
+
+
+.next,
+.prev {
+    display: block;
+    width: 58px;
+    height: 58px;
+    text-indent: -9999px;
+    background: url('../../assets/images/slider-control.png') 0 0 no-repeat;
+    position: absolute;
+    left: 0;
+    top: 47px;
+    z-index: 99;
+    cursor: pointer;
+}
+
+.next {
+    left: auto;
+    right: 0;
+    background-position: left bottom;
+}
+
+.banner1-bg {
+    width: 284px;
+    height: 397px;
+    background: url('../../assets/images/banner1-bg.jpg') 0 0 no-repeat;
+    float: left;
+}
+
+.banner-1 {
+    width: 376px;
+    height: 397px;
+    background: url('../../assets/images/banner-1.png') 0 0 no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9;
+
+    @media (min-width: 1500px) {
+      left:10rem;
+    }
+}
+
+.btn-solid-lg {
+    
+}

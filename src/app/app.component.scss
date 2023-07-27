@@ -1,0 +1,23 @@
+.navbar {
+    background-color: white;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 0.875rem;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.05);
+
+    .navbar-brand {
+        padding-top: 0.25rem;
+        padding-bottom: 0.25rem;
+    }
+
+    .logo-image img {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .logo-text {
+        color: #6d6e70;
+        font-family: "Recoleta-SemiBold", sans-serif;
+     
+    }
+}
