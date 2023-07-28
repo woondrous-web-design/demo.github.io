@@ -1,5 +1,6 @@
 # Handyman4HireGalway
-
+ng build --prod --base-href "https://GithubUserName.github.io/GithubRepoName/"
+npx angular-cli-ghpages --dir=dist/handyman4hire
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.1.
 
 ## Development server
