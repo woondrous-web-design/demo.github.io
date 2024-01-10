@@ -103,8 +103,16 @@
     @media (min-width: 1500px) {
       left:10rem;
     }
-}
 
-.btn-solid-lg {
-    
-}
+    @media (max-width:1200px) {
+        transform: scale(0.75);
+        left: -100px;
+        top: 99px;
+    }
+ 
+    @media (max-width:800px) {
+        transform: scale(0.5);
+        left: -100px;
+        top: 99px;
+    }
+} 
