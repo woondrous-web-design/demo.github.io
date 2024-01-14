@@ -1,23 +1,31 @@
 .navbar {
-    background-color: white;
-    font-weight: 600;
-    font-size: 0.875rem;
-    line-height: 0.875rem;
-    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.05);
+  background-color: white;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 0.875rem;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.05);
 
-    .navbar-brand {
-        padding-top: 0.25rem;
-        padding-bottom: 0.25rem;
-    }
+  .navbar-brand {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
 
-    .logo-image img {
-        width: 8rem;
-        height: 8rem;
-    }
+  .logo-image img {
+    width: 8rem;
+    height: 8rem;
+  }
 
-    .logo-text {
-        color: #6d6e70;
-        font-family: "Recoleta-SemiBold", sans-serif;
-     
-    }
+  .logo-text {
+    color: #6d6e70;
+    font-family: "Recoleta-SemiBold", sans-serif;
+  }
+}
+
+// Define the WhatsApp green color
+$whatsapp-green: #25d366;
+
+// Apply the filter to the img tag
+img.whatsapp-green {
+  filter: invert(43%) sepia(95%) saturate(1352%) hue-rotate(88deg)
+    brightness(119%) contrast(91%);
 }

@@ -85,7 +85,7 @@ a {
 }
 
 a:hover {
-	color: #5e6576;
+	color: #5e6576 !important;
 	text-decoration: underline;
 }
 
@@ -181,8 +181,8 @@ a:hover {
 }
 
 .btn-solid-sm:hover {
-	background-color: transparent;
-	color: #f6a20e; /* needs to stay here because of the color property of a tag */
+	/* background-color: transparent; */
+	color: #f6a20e !important; /* needs to stay here because of the color property of a tag */
 	text-decoration: none;
 }
 
