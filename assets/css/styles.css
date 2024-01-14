@@ -437,11 +437,11 @@ a:hover {
 	background: url('../images/banner1-bg.jpg') right center no-repeat;
 	opacity: 0.8;
 	background-size: cover;
-	text-align: right;
+	/* text-align: right; */
 }
 
 .header .h1-large {
-	margin-bottom: 1.75rem;
+	margin-bottom: 1rem;
 }
 
 
