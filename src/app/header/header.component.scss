@@ -38,6 +38,34 @@
   vertical-align: top;
 }
 
+.p-medium {
+  position: relative;
+  float: right;
+  padding-right: 2rem;
+  color: white !important;
+  text-shadow: 2px 2px gray;
+  font-size: 1.5rem;
+  line-height: 1.75;
+  text-align: right;
+
+  @media (max-width: 700px) {
+    font-size: 0.8rem;
+  }
+
+  @media (max-width: 600px) {
+    top: -3rem;
+  }
+
+  @media (max-width: 575px) {
+    width: 50%;
+    top: -6rem;
+  }
+
+  @media (max-width: 400px) {
+    top: -8rem;
+  }
+}
+
 .p-large {
   color: white !important;
   text-shadow: 2px 2px gray;
@@ -46,6 +74,12 @@
 
   @media (max-width: 500px) {
     font-size: 1.25rem;
+  }
+}
+
+.tagline {
+  @media (max-width: 500px) {
+    top: -3rem;
   }
 }
 
