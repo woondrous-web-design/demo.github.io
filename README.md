@@ -1,8 +1,10 @@
 # Handyman4HireGalway
 ng build --prod --base-href "https://GithubUserName.github.io/GithubRepoName/" ("https://woondrous-web-design.github.io/demo.github.io/")
+ng build --prod --base-href "https://woondrous-web-design.github.io/demo.github.io/"
 npx angular-cli-ghpages --dir=dist/handyman4hire
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.1.
 developed with node version v14.19.0
+npm install -g @angular/cli@13.1.1
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
