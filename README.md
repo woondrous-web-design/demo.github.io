@@ -1,3 +1,10 @@
+# Google Firebase Hosting
+`npm run build` to build the website and output to `dist/handyman4hire`
+`firebase deploy` to auto deploy webiste to google firebase hosting
+
+Project Console: https://console.firebase.google.com/project/handymangalway/overview
+Hosting URL: https://handymangalway.web.app
+
 # Handyman4HireGalway
 ng build --prod --base-href "https://GithubUserName.github.io/GithubRepoName/" ("https://woondrous-web-design.github.io/demo.github.io/")
 ng build --prod --base-href "https://woondrous-web-design.github.io/demo.github.io/"
