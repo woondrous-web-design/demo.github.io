@@ -1,17 +1,25 @@
 # Google Firebase Hosting
-`npm run build` to build the website and output to `dist/handyman4hire`
-`firebase deploy` to auto deploy webiste to google firebase hosting
 
-Project Console: https://console.firebase.google.com/project/handymangalway/overview
+`npm run build` to build the website and output to `dist/handyman4hire`
+`firebase deploy` to auto deploy website to google firebase hosting
+
+Project Console: https://console.firebase.google.com/project/handymangalway/overview<br>
 Hosting URL: https://handymangalway.web.app
 
-# Handyman4HireGalway
+# Handyman4HireGalway (For ghpage hosting)
+
 ng build --prod --base-href "https://GithubUserName.github.io/GithubRepoName/" ("https://woondrous-web-design.github.io/demo.github.io/")
+
 ng build --prod --base-href "https://woondrous-web-design.github.io/demo.github.io/"
+
 npx angular-cli-ghpages --dir=dist/handyman4hire
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.1.
-developed with node version v14.19.0
+developed with node version v14.19.0<br>
 npm install -g @angular/cli@13.1.1
+
+Notes: need to use node v18 or above for firebase CLI
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
