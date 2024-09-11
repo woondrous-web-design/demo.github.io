@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://handymangalway.ie/</loc>
+    <lastmod>2024-09-11T15:49:39+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <!-- Home Section -->
+  <url>
+    <loc>https://handymangalway.ie/#header</loc>
+    <lastmod>2024-09-11T15:49:39+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Testimonials Section -->
+  <url>
+    <loc>https://handymangalway.ie/#testimonials</loc>
+    <lastmod>2024-09-11T15:49:39+00:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Services Section -->
+  <url>
+    <loc>https://handymangalway.ie/#services</loc>
+    <lastmod>2024-09-11T15:49:39+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Contacts Section -->
+  <url>
+    <loc>https://handymangalway.ie/#contacts</loc>
+    <lastmod>2024-09-11T15:49:39+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+</urlset>
